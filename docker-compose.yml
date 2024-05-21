@@ -11,6 +11,7 @@ mantisbt:
   volumes:
     - ./config:/var/www/html/config
     - ./custom:/var/www/html/custom
+    - ./plugins:/var/www/html/plugins
 
 mysql:
   image: mariadb:latest
